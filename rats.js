@@ -26,6 +26,6 @@ xhr.onreadystatechange = () => {
     }
 };
 ///////open server request////////////////////////////////////////////////////////
-xhr.open("GET", "api/openapi.json", "api/openapi-2.json");
+xhr.open("GET", "https://bungie-net.github.io");
 ///////send server request////////////////////////////////////////////////////////
 xhr.send();
